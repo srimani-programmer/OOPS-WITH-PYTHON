@@ -1,5 +1,5 @@
-# The variables which are intialized or declared outside constructor and within the class are called as 
-# static variables or class level variables.
+# The variables which are intialized or declared outside constructor and within the class without any self keyword
+# are called as static variables or class level variables.
 
 class Student:
 
@@ -9,7 +9,7 @@ class Student:
         self.age = age
         self.rollno = rollno
         self.dob = dob
-
+        
     
     # we can acess class level variables with either a class name or object name.
     
@@ -22,3 +22,4 @@ vardhan = Student('Sai Vardhan',19,'16D41A05G5','23/03/1999')
 
 mani.getInfo()
 vardhan.getInfo()
+
