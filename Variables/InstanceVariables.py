@@ -1,4 +1,4 @@
-# The variables which are intialized or declared inside constructor are called as instancevariables.
+# The variables which are intialized or declared with the help of self keyword are called as instancevariables.
 
 class Student:
 
@@ -17,3 +17,5 @@ vardhan = Student('Sai Vardhan',19,'16D41A05G5','23/03/1999')
 
 mani.getInfo()
 vardhan.getInfo()
+
+print(mani.__dict__)
